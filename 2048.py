@@ -43,7 +43,7 @@ file.close()
 high_score = init_high
 
 
-# draw game over and restart text
+# draw game over and restart
 def draw_over():
     pygame.draw.rect(screen, 'black', [50, 50, 300, 100], 0, 10)
     game_over_text1 = font.render('Game Over!', True, 'white')
